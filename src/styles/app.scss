@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2 {
+  font-weight: 400;
+}
+h3,
+h4 {
+  font-weight: 300;
+  color: rgb(49, 49, 49);
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.App {
+  transition: all 0.5s ease;
+}
+.library-active {
+  margin-left: 30%;
+}
+@import "./song.scss";
+@import "./player.scss";
+@import "./library.scss";
+@import "./Nav.scss";
